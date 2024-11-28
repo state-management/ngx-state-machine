@@ -1,7 +1,7 @@
 # ngx-state-machine
 
 [![npm version](https://badge.fury.io/js/@state-management%2Fngx-state-machine.svg?cacheSeconds=0)](https://www.npmjs.com/package/@state-management/ngx-state-machine)
-[![Build Status](https://github.com/state-management/ngx-state-machine/actions/workflows/build.yml/badge.svg)](https://github.com/state-management/state-machine-react/actions)
+[![Build Status](https://github.com/state-management/ngx-state-machine/actions/workflows/build.yml/badge.svg)](https://github.com/state-management/ngx-state-machine/actions)
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 **ngx-state-machine** is an Angular wrapper for the 

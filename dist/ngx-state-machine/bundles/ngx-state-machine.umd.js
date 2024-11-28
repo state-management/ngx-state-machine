@@ -1,6 +1,6 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('simple-state-machine')) :
-    typeof define === 'function' && define.amd ? define('ngx-state-machine', ['exports', '@angular/core', 'simple-state-machine'], factory) :
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@state-management/simple-state-machine')) :
+    typeof define === 'function' && define.amd ? define('ngx-state-machine', ['exports', '@angular/core', '@state-management/simple-state-machine'], factory) :
     (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global["ngx-state-machine"] = {}, global.ng.core, global.simpleStateMachine));
 })(this, (function (exports, core, simpleStateMachine) { 'use strict';
 
@@ -47,6 +47,10 @@
     Object.defineProperty(exports, 'StateMachine', {
         enumerable: true,
         get: function () { return simpleStateMachine.StateMachine; }
+    });
+    Object.defineProperty(exports, 'UpdateStateCommand', {
+        enumerable: true,
+        get: function () { return simpleStateMachine.UpdateStateCommand; }
     });
     exports.NgxStateMachineModule = NgxStateMachineModule;
     exports.provideStateMachine = provideStateMachine;

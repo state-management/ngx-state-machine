@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
-import { StateMachine } from 'simple-state-machine';
-export { Command, StateKey, StateMachine } from 'simple-state-machine';
+import { StateMachine } from '@state-management/simple-state-machine';
+export { Command, StateKey, StateMachine, UpdateStateCommand } from '@state-management/simple-state-machine';
 
 function createStateMachine() {
     return StateMachine.getInstance();

@@ -1,6 +1,6 @@
 {
   "name": "@state-management/ngx-state-machine",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An Angular wrapper for simple-state-machine library, integrates the simple-state-machine with Angular’s dependency injection system",
   "main": "bundles/state-management-ngx-state-machine.umd.js",
   "module": "fesm2015/state-management-ngx-state-machine.js",

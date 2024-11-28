@@ -167,10 +167,10 @@ export class CounterControlComponent {
 ### Listen to state changes
 Use the injected StateMachine to observe state changes and render UI accordingly.
 ```typescript
-import {Component, OnDestroy} from '@angular/core';
+import {Component} from '@angular/core';
 import {StateKeyConstants} from '../constants/state-keys.constants';
 import {AsyncPipe} from '@angular/common';
-import {Observable, Subscription} from 'rxjs';
+import {Observable} from 'rxjs';
 import {StateMachine} from '@state-management/ngx-state-machine';
 
 @Component({
@@ -179,20 +179,14 @@ import {StateMachine} from '@state-management/ngx-state-machine';
   imports: [AsyncPipe],
   template: ` <p>counter value is: {{(counter$|async)}}</p> `
 })
-export class CounterDisplayComponent implements OnDestroy {
+export class CounterDisplayComponent {
   protected counter$:Observable<number> | undefined;
-  protected subscription: Subscription;
 
   constructor(private stateMachine: StateMachine) {
     // Use the injected StateMachine to observe state changes.
     this.counter$ = this.stateMachine.observe(StateKeyConstants.COUNTER_KEY);
   }
   
-  ngOnDestroy(): void {
-    if(this.subscription)
-      this.subscription.unsubscribe();
-  }
-
 }
 ```
 

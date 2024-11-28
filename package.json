@@ -46,7 +46,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/state-management/state-machine-react.git"
+    "url": "https://github.com/state-management/ngx-state-machine.git"
   },
   "publishConfig": {
     "access": "public"

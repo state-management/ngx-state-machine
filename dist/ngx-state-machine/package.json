@@ -1,0 +1,37 @@
+{
+  "name": "ngx-state-machine",
+  "version": "1.0.0",
+  "description": "An Angular service wrapper for the simple-state-machine library.",
+  "main": "bundles/ngx-state-machine.umd.js",
+  "module": "fesm2015/ngx-state-machine.js",
+  "es2015": "fesm2015/ngx-state-machine.js",
+  "types": "dist/ngx-state-machine/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/ngx-state-machine/esm2015/index.js",
+      "require": "./dist/ngx-state-machine/bundles/ngx-state-machine.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "@angular/core": "^12.0.0"
+  },
+  "keywords": [
+    "angular",
+    "state-machine",
+    "rxjs"
+  ],
+  "author": "Gopakumar Nair",
+  "license": "MIT",
+  "dependencies": {
+    "simple-state-machine": "file:../simple-state-machine/simple-state-machine-1.0.0.tgz",
+    "tslib": "^2.2.0"
+  },
+  "esm2015": "esm2015/ngx-state-machine.js",
+  "fesm2015": "fesm2015/ngx-state-machine.js",
+  "typings": "ngx-state-machine.d.ts",
+  "metadata": "ngx-state-machine.metadata.json",
+  "sideEffects": false
+}

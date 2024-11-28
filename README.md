@@ -26,7 +26,7 @@ By decoupling state management from UI components,
 Since the state can be modified from within a Command only, this will result in business logic moving out of UI components into command classes.
 
 
-### Implementations Example
+### Implementation Example
 - [Sample Angular project](https://github.com/state-management/angular-example) that you can clone. It is a fully working example with unit tests, showcasing the use of `ngx-state-machine`.
 
 

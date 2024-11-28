@@ -1,7 +1,7 @@
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@state-management/simple-state-machine')) :
-    typeof define === 'function' && define.amd ? define('ngx-state-machine', ['exports', '@angular/core', '@state-management/simple-state-machine'], factory) :
-    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global["ngx-state-machine"] = {}, global.ng.core, global.simpleStateMachine));
+    typeof define === 'function' && define.amd ? define('@state-management/ngx-state-machine', ['exports', '@angular/core', '@state-management/simple-state-machine'], factory) :
+    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory((global["state-management"] = global["state-management"] || {}, global["state-management"]["ngx-state-machine"] = {}), global.ng.core, global.simpleStateMachine));
 })(this, (function (exports, core, simpleStateMachine) { 'use strict';
 
     function createStateMachine() {
@@ -60,4 +60,4 @@
     Object.defineProperty(exports, '__esModule', { value: true });
 
 }));
-//# sourceMappingURL=ngx-state-machine.umd.js.map
+//# sourceMappingURL=state-management-ngx-state-machine.umd.js.map

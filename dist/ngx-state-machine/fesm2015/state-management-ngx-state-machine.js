@@ -32,4 +32,4 @@ function provideStateMachine() {
  */
 
 export { NgxStateMachineModule, provideStateMachine, ɵ0, createStateMachine as ɵa };
-//# sourceMappingURL=ngx-state-machine.js.map
+//# sourceMappingURL=state-management-ngx-state-machine.js.map

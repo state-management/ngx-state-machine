@@ -1,10 +1,10 @@
 {
-  "name": "ngx-state-machine",
+  "name": "@state-management/ngx-state-machine",
   "version": "1.0.1",
   "description": "An Angular wrapper for simple-state-machine library, integrates the simple-state-machine with Angular’s dependency injection system",
-  "main": "bundles/ngx-state-machine.umd.js",
-  "module": "fesm2015/ngx-state-machine.js",
-  "es2015": "fesm2015/ngx-state-machine.js",
+  "main": "bundles/state-management-ngx-state-machine.umd.js",
+  "module": "fesm2015/state-management-ngx-state-machine.js",
+  "es2015": "fesm2015/state-management-ngx-state-machine.js",
   "types": "dist/ngx-state-machine/index.d.ts",
   "exports": {
     ".": {
@@ -40,9 +40,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "esm2015": "esm2015/ngx-state-machine.js",
-  "fesm2015": "fesm2015/ngx-state-machine.js",
-  "typings": "ngx-state-machine.d.ts",
-  "metadata": "ngx-state-machine.metadata.json",
+  "esm2015": "esm2015/state-management-ngx-state-machine.js",
+  "fesm2015": "fesm2015/state-management-ngx-state-machine.js",
+  "typings": "state-management-ngx-state-machine.d.ts",
+  "metadata": "state-management-ngx-state-machine.metadata.json",
   "sideEffects": false
 }

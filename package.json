@@ -1,7 +1,7 @@
 {
   "name": "ngx-state-machine",
   "version": "1.0.0",
-  "description": "An Angular service wrapper for the simple-state-machine library.",
+  "description": "An Angular wrapper for simple-state-machine library, integrates the simple-state-machine with Angular’s dependency injection system",
   "main": "dist/ngx-state-machine/bundles/ngx-state-machine.umd.js",
   "module": "dist/ngx-state-machine/esm2015/index.js",
   "es2015": "dist/ngx-state-machine/esm2015/index.js",
@@ -13,11 +13,15 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "scripts": {
     "build": "ng-packagr -p ng-package.json",
     "test": "jest"
+  },
+  "dependencies": {
+    "@state-management/simple-state-machine": "1.0.9"
   },
   "peerDependencies": {
     "@angular/core": "^12.0.0"
@@ -31,13 +35,20 @@
     "typescript": "^4.3.5"
   },
   "keywords": [
-    "angular",
+    "state-management",
+    "command-pattern",
+    "typescript",
     "state-machine",
-    "rxjs"
+    "rxjs",
+    "angular"
   ],
   "author": "Gopakumar Nair",
   "license": "MIT",
-  "dependencies": {
-    "simple-state-machine": "file:../simple-state-machine/simple-state-machine-1.0.0.tgz"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/state-management/state-machine-react.git"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

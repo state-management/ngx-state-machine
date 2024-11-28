@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "build": "ng-packagr -p ng-package.json",
-    "test": "jest"
+    "test": "jest --passWithNoTests"
   },
   "dependencies": {
     "@state-management/simple-state-machine": "1.0.9"

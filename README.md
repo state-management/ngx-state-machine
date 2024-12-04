@@ -48,6 +48,11 @@ This is invaluable while identifying issues in code.  This also reduces the depe
 - **Observability**: Allow UI components to reactively observe state changes.
 
 
+## Compatibility
+- This package will work with Angular **12.x** and above. It has been tested with Angular **18.x**.
+- For unit testing, this library supports Jest **26.x** and higher.
+
+
 ## Installation
 
 Install via npm:

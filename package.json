@@ -1,6 +1,6 @@
 {
   "name": "@state-management/ngx-state-machine",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "An Angular wrapper for simple-state-machine library, integrates the simple-state-machine with Angular’s dependency injection system",
   "main": "dist/ngx-state-machine/bundles/ngx-state-machine.umd.js",
   "module": "dist/ngx-state-machine/esm2015/index.js",
@@ -21,17 +21,17 @@
     "test": "jest --passWithNoTests"
   },
   "dependencies": {
-    "@state-management/simple-state-machine": "1.0.11"
+    "@state-management/simple-state-machine": "1.0.12"
   },
   "peerDependencies": {
-    "@angular/core": "^12.0.0"
+    "@angular/core": ">=12.0.0"
   },
   "devDependencies": {
     "@angular/cli": "^12.0.0",
     "@types/node": "^14.18.63",
-    "jest": "^27.0.0",
+    "jest": "^26.0.0",
     "ng-packagr": "^12.0.0",
-    "ts-jest": "^27.0.0",
+    "ts-jest": "^26.0.0",
     "typescript": "^4.3.5"
   },
   "keywords": [
